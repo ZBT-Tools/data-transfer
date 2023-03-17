@@ -89,9 +89,9 @@ def gen_dict_extract(key: str, var: (dict, list, tuple)) -> Generator:
         for d in var:
             for result in gen_dict_extract(key, d):
                 yield result
-    else:
-        raise TypeError('Provided data structure must be either dict, list, '
-                        'or tuple')
+    # else:
+    #     raise TypeError('Provided data structure must be either dict, list, '
+    #                     'or tuple')
 
 
 def set_dict_entry(value, key_list: list, target_dict: dict,
