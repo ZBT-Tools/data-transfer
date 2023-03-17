@@ -23,5 +23,5 @@ print(data_transfer.dict_transfer(source_dict, target_dict,
 ```
 Output: 
 ```python
-    ({'ambient_temp': {'value': '25'}}, ['ambient_temp'])
+({'ambient_temp': {'value': '25'}}, ['ambient_temp'])
 ```
