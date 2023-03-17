@@ -8,8 +8,9 @@ For details on usage see docstring of the 'dict_transfer' function.
 
 - Python
 
-Example:
+### Example:
 
+Input: 
 ```python
 import data_transfer
 
